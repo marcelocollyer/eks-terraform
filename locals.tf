@@ -1,8 +1,8 @@
 locals {
-    tags = {
-        Department = "DevOps"
-        Organization = "Infrastructure"
-        Project = "EKS"
-        Environment = "Dev"
-    }
+  tags = {
+    Department   = "DevOps"
+    Organization = "Infrastructure"
+    Project      = "EKS"
+    Environment  = "Dev"
+  }
 }
