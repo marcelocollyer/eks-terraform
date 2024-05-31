@@ -3,11 +3,11 @@ resource "aws_subnet" "eks_subnet_public_1a" {
   cidr_block              = cidrsubnet(var.cidr_block, 8, 1)
   availability_zone       = "us-east-1a"
   map_public_ip_on_launch = true
-  
+
   tags = merge(
     local.tags,
     {
-      Name = "${var.project_name}_subnet_public_1a"
+      Name                              = "${var.project_name}_subnet_public_1a"
       "kubernetes.io/role/internal-elb" = 1
     }
   )
@@ -22,7 +22,7 @@ resource "aws_subnet" "eks_subnet_public_1b" {
   tags = merge(
     local.tags,
     {
-      Name = "${var.project_name}_subnet_public_1b"
+      Name                              = "${var.project_name}_subnet_public_1b"
       "kubernetes.io/role/internal-elb" = 1
     }
   )
