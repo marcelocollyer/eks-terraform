@@ -1,5 +1,5 @@
 resource "aws_iam_role" "eks_controller_role" {
-  name = "${var.project_name}-aws-lb-controller"
+  name = "${var.project_name}-aws-load-balancer-controller-role"
 
   assume_role_policy = <<EOF
 {
@@ -25,7 +25,7 @@ EOF
   tags = merge(
     var.tags,
     {
-      Name = "${var.project_name}-aws-lb-controller"
+      Name = "${var.project_name}-aws-load-balancer-controller"
     }
   )
 }
