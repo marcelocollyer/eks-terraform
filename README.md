@@ -33,6 +33,8 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | Networkking CIDR block to be used for the VPC | `string` | `"10.0.0.0/16"` | no |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Name of the project | `string` | `"eksproject"` | no |
+| <a name="input_region"></a> [region](#input\_region) | AWS region to deploy resources in | `string` | `"us-east1"` | no |
+| <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to all AWS resources | `map(any)` | n/a | yes |
 
 ## Outputs
 
