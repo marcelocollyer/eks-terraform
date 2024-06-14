@@ -31,6 +31,7 @@ No modules.
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Name of the project | `string` | `"eksproject"` | no |
 | <a name="input_subnet_private_1a"></a> [subnet\_private\_1a](#input\_subnet\_private\_1a) | Private subnet ID for AZ 1a | `string` | n/a | yes |
 | <a name="input_subnet_private_1b"></a> [subnet\_private\_1b](#input\_subnet\_private\_1b) | Private subnet ID for AZ 1b | `string` | n/a | yes |
+| <a name="input_subnet_private_1c"></a> [subnet\_private\_1c](#input\_subnet\_private\_1c) | Private subnet ID for AZ 1c | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | Tags to be added to AWS resources | `map(any)` | n/a | yes |
 
 ## Outputs

@@ -11,6 +11,7 @@ module "eks_cluster" {
   tags             = var.tags
   public_subnet_1a = module.eks_network.subnet_public_1a
   public_subnet_1b = module.eks_network.subnet_public_1b
+  public_subnet_1c = module.eks_network.subnet_public_1c
 }
 
 module "eks_managed_node_group" {
@@ -19,6 +20,7 @@ module "eks_managed_node_group" {
   cluster_name      = module.eks_cluster.cluster_name
   subnet_private_1a = module.eks_network.subnet_private_1a
   subnet_private_1b = module.eks_network.subnet_private_1b
+  subnet_private_1c = module.eks_network.subnet_private_1c
   tags              = var.tags
 }
 

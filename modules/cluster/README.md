@@ -32,6 +32,7 @@ No modules.
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Name of the project | `string` | `"eksproject"` | no |
 | <a name="input_public_subnet_1a"></a> [public\_subnet\_1a](#input\_public\_subnet\_1a) | Subnet to create EKS cluster AZ 1a | `string` | n/a | yes |
 | <a name="input_public_subnet_1b"></a> [public\_subnet\_1b](#input\_public\_subnet\_1b) | Subnet to create EKS cluster AZ 1b | `string` | n/a | yes |
+| <a name="input_public_subnet_1c"></a> [public\_subnet\_1c](#input\_public\_subnet\_1c) | Subnet to create EKS cluster AZ 1c | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | Tags to be added to AWS resources | `map(any)` | n/a | yes |
 
 ## Outputs
